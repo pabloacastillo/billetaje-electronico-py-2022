@@ -30,14 +30,13 @@ Algunos estudios preliminares buscando indagar cuales son las caracteristicas ge
 Porque todo el mundo necesita pines
 https://www.instagram.com/p/CkZNOkoLcGb/
 
-![Pines](https://github.com/pabloacastillo/billetaje-electronico-py-2022/tree/main/docs/media/pines/pines1.jpg)
-![Pines](https://github.com/pabloacastillo/billetaje-electronico-py-2022/tree/main/docs/media/pines/pines2.jpg)
-![Pines](https://github.com/pabloacastillo/billetaje-electronico-py-2022/tree/main/docs/media/pines/pines3.jpg)
-![Pines](https://github.com/pabloacastillo/billetaje-electronico-py-2022/tree/main/docs/media/pines/pines4.jpg)
-![Pines](https://github.com/pabloacastillo/billetaje-electronico-py-2022/tree/main/docs/media/pines/pines5.jpg)
-![Pines](https://github.com/pabloacastillo/billetaje-electronico-py-2022/tree/main/docs/media/pines/pines6.jpg)
-![Pines](https://github.com/pabloacastillo/billetaje-electronico-py-2022/tree/main/docs/media/pines/pines7.jpg)
-
+![Pines](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/docs/media/pines/pines1.jpg)
+![Pines](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/docs/media/pines/pines2.jpg)
+![Pines](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/docs/media/pines/pines3.jpg)
+![Pines](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/docs/media/pines/pines4.jpg)
+![Pines](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/docs/media/pines/pines5.jpg)
+![Pines](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/docs/media/pines/pines6.jpg)
+![Pines](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/docs/media/pines/pines7.jpg)
 
 
 Este repositorio fue creado en base a https://github.com/dslp/dslp-repo-template
