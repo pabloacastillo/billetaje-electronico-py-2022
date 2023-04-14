@@ -21,8 +21,26 @@ sh init.sh
 Algunos estudios preliminares buscando indagar cuales son las caracteristicas generales de los datos.
 
 
-#### Generación de mapas de rutas según idrutaestacion (Itinerario por linea?) [link](https://github.com/pabloacastillo/billetaje-electronico-py-2022/blob/main/notebooks/mapas-por-idrutaestacion/mapas-por-idrutaestacion.ipynb)
+#### Generación de mapas de rutas según idrutaestacion (Itinerario por linea?) [link](https://github.com/pabloacastillo/billetaje-electronico-py-2022/blob/main/notebooks/mapas-por-idrutaestacion)
 
+![PA.I ÑU - IPS: Troncal 1(010C)](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/notebooks/mapas-por-idrutaestacion/graphs/010c.png)
+
+
+
+### Otros análisis realizados por otras personas
+
+Si ves que falta alguien, por favor avisar o comparti tu repositorio aquí (o en twitter usando #OPAMA)
+
+[Lucho](https://github.com/luchobenitez/monda-guasu)
+Repositorio con toda la información general y contexto de la situación. Datasets, diccionario, contexto y más.
+
+[Karl](https://github.com/Karlheinzniebuhr/billetaje_electronico)
+Este repositorio contiene código para un análisis de datos abiertos del billetaje electrónico en Paraguay.
+Este análisis incluye la exploración de los datos y la visualización de varias métricas, como la cantidad de transacciones por día de la semana.
+
+[Mateo](https://github.com/torresmateo/opama)
+Análisis de datos de transporte del área metropolitana de Asunción
+Con estadísticas simples se ven algunos casos que resultan poco razonables si uno piensa en un pasajero convencional. Por ejemplo, usar un servicio de bus 662 veces en el mismo día (particularmente un Domingo).
 
 
 ### Pines

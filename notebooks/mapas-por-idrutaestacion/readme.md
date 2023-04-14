@@ -4,6 +4,10 @@ Para ver más detalles acerca de la generación, revisar el notebook. Si algo te
 
 ## Mapas
 
+Existen mapas en dos colores, los rojos y los azules. La diferenciación se hace a causa de la cantidad de información para cada caso.
+Al generarse los mapas iniciales, los rojos, muchos mostraban trayectos poco visibles a razón de contar con pocas lecturas (no habían tantos datos). A razón de esto, manualmente se generan luego los mapas en azul, que cuentan con marcadores más grandes y visibles para hacer obvios los trayectos que recorren.
+
+
 ### KM. 20 RUTA 1 - PIROY - CIA 3 RUTA 2: Troncal 2(0065) 
 ![KM. 20 RUTA 1 - PIROY - CIA 3 RUTA 2: Troncal 2(0065)](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/notebooks/mapas-por-idrutaestacion/graphs/0065.png)
 ### LUQUE: Troncal 1(0071) 

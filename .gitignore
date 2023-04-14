@@ -1,6 +1,6 @@
 data/**
 !data/README.md
-!data/generar_dataset.sh
+!data/generar_datasets.sh
 
 
 
