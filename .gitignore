@@ -1,5 +1,6 @@
 data/**
 !data/README.md
+!data/generar_dataset.sh
 
 
 
