@@ -1,6 +1,10 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/pabloacastillo/billetaje-electronico-py-2022/blob/main/README.en.md)
+
 # Análisis de la información de billetaje electrónico
 
 Desde este repositorio se trabajaran de diferentes maneras de extraer información útil de los datos crudos provistos por el Viceministerio de Transporte.
+
+## [Accede al dataset completo aquí (6.5Gb comprimido, 26.4Gb extraido)](https://drive.google.com/drive/folders/12EbE0PEEnCjUVjhzMDNa1W7M9tR4ZzwW)
 
 ## Referencias
 

@@ -1,7 +1,7 @@
 data/**
 !data/README.md
 !data/generar_datasets.sh
-
+!data/processed/idrutaestacion.csv
 
 
 
