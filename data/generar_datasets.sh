@@ -17,7 +17,7 @@ echo "serialtarjeta;idsam;fechahoraevento;producto;montoevento;consecutivoevento
 awk -F "\"*;\"*" '$8 == "4" { print $0 } ' processed/consolidado-full.csv >> processed/consolidado-full-solo-viajes.csv
 
 echo "GENERANDO ARCHIVO SIN VIAJES, O SEA TODOS LOS TIPOEVENTO QUE NO SON 4"
-echo "serialtarjeta;idsam;fechahoraevento;producto;montoevento;consecutivoevento;identidad;tipoevento;latitude;longitude;idrutaestacion;tipotransporte" > processed/consolidado-full-solo-viajes.csv
+echo "serialtarjeta;idsam;fechahoraevento;producto;montoevento;consecutivoevento;identidad;tipoevento;latitude;longitude;idrutaestacion;tipotransporte" > processed/consolidado-full-sin-viajes.csv
 awk -F "\"*;\"*" '$8 !~ "4" { print $0 } ' processed/consolidado-full.csv >> processed/consolidado-full-sin-viajes.csv
 
 
@@ -30,5 +30,11 @@ echo "latitude;longitude;idrutaestacion;fechahoraevento" > processed/latlon-por-
 cat interim/latlon-por-linea-full.csv | sort | uniq >> processed/latlon-por-linea-clean.csv                 
 # sed '$d' processed/latlon-por-linea-clean.csv
 echo "Datos limpios generados en data/processed/latlon-por-linea-clean.csv"
+
+
+echo "GENERANDO DATOS DE LATLON POR serialtarjeta"
+echo "Datos crudos generados en data/interim/latlon-por-serialtarjeta-full.csv"
+echo "serialtarjeta;fechahoraevento;identidad;tipoevento;latitude;longitude;idrutaestacion" > interim/latlon-por-serialtarjeta-full.csv
+awk -F "\"*;\"*" '$9 !~ "latitude" { print $1 ";" $3 ";" $7 ";" $8 ";" $9 ";" $10 ";" $11 } ' >> interim/latlon-por-serialtarjeta-full.csv
 
 
