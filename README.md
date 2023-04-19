@@ -22,8 +22,17 @@ Algunos estudios preliminares buscando indagar cuales son las caracteristicas ge
 
 #### Generación de mapas de rutas según idrutaestacion (Itinerario por linea?) [link](https://github.com/pabloacastillo/billetaje-electronico-py-2022/blob/main/notebooks/mapas-por-idrutaestacion)
 
+Estos mapas fueron generados utilizando la información cruda GPS extraida del dataset entregado por el VMT. Para ver más detalles acerca de la generación, revisar el notebook. Si algo te llama la atención en estar rutas, twittealo con el hash #OPAMA
+
 ![PA.I ÑU - IPS: Troncal 1(010C)](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/notebooks/mapas-por-idrutaestacion/graphs/010c.png)
 
+
+#### Mapas de todos los eventos no registrados como viajes [link](https://github.com/pabloacastillo/billetaje-electronico-py-2022/tree/main/notebooks/mapas-eventos-no-viajes)
+
+Estos mapas contienen todos los datos contenido en el dataset donde tipoevento es diferente a 4 (Viaje Normal).
+En este caso, según los datos contenidos en el dataset, todos los tipoevento que no son 4 (Viaje Normal) son 8 (Devolución).
+
+![idesam: Identificador del chip instalado en el equipo verificador.](https://raw.githubusercontent.com/pabloacastillo/billetaje-electronico-py-2022/main/notebooks/mapas-eventos-no-viajes/graphs/idsam.png)
 
 
 ### Otros análisis realizados por otras personas
