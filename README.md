@@ -50,6 +50,10 @@ Este análisis incluye la exploración de los datos y la visualización de varia
 Análisis de datos de transporte del área metropolitana de Asunción
 Con estadísticas simples se ven algunos casos que resultan poco razonables si uno piensa en un pasajero convencional. Por ejemplo, usar un servicio de bus 662 veces en el mismo día (particularmente un Domingo).
 
+[egkike](https://github.com/egkike/billetaje)
+Scrips SQL para los 8 CDs con datos del sistema de billetaje electrónico de enero de 2022 a marzo de 2023.
+Este Scrip tiene como objetivo ayudar y facilitar la tarea de IMPORTAR los datos contenidos en los Archivos CSV a Tablas de una Base de Datos MariaDB o MySQL. Fecha: 14/04/2023
+
 
 ## Referencias
 
